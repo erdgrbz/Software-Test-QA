@@ -14,6 +14,7 @@ if response.status_code != 200:
 print("\n")
 #Response Contents
 
+#print(response.content)
 data = json.loads(response.content)
 
 for flight in data["data"]:
