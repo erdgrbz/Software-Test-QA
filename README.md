@@ -1,2 +1,2 @@
 # amadeus
-assignment
+case study
