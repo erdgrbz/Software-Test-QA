@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-import re
 
+#Frontend Case with Selenium on Python
 driver = webdriver.Chrome()
 driver.get("https://flights-app.pages.dev/")
 
