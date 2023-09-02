@@ -49,8 +49,7 @@ try:
         flight_count = len(flights)
         print("\nNumber of flights:", flight_count)
 
-        page_source = driver.page_source
-        soup = BeautifulSoup(page_source, 'html.parser')
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
         found_items = soup.find('p', class_='mb-10').text
         print(found_items)
 
